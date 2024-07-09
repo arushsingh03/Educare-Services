@@ -15,7 +15,7 @@ const about = {
     },
     {
     fieldName: "Experience",
-    fieldValue: "2+ Years"
+    fieldValue: "5+ Years"
   },
   {
     fieldName: "Facebook",
@@ -39,28 +39,28 @@ const experience = {
   items: [
     {
       colleges: "MEDICAL",
-      programmes: "MBBS, BUMS, BAMS, BHMS, BDS, BSc Nursing, BSC, MSC etc.",
-      duration: "4.5+1-Years, 5-Years, 4-Year, 3-Years, 2-Years", 
+      programmes: "MBBS, BUMS, BAMS, BHMS, BDS, BSc Nursing, etc.",
+      duration: "", 
     },
     {
       colleges: "ENGINEERING",
       programmes: "B-Tech All Branches, M-tech All Branches, BCA, MCA etc",
-      duration: "4-Years, 2-Years, 3-Years, 2-Years", 
+      duration: "", 
     },
     {
       colleges: "MANAGEMENT",
       programmes: "BBA, MBA, BHM, BBM, BMS, etc",
-      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years", 
+      duration: "", 
     },
     {
       colleges: "ARTS & DESIGNING",
       programmes: "BA, MA, B-Des, BFA, including other diploma courses.",
-      duration: "3-Years, 2-Years, 3-Years, 3-Years,", 
+      duration: "", 
     },
     {
       colleges: "COMMERCE & FINANCE",
       programmes: "B.Com, M.Com, BE, B.Econ, BFIA etc",
-      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years, ", 
+      duration: "", 
     },
     {
       colleges: "100+ more courses of your desired requirement and choices which will lead towards your best future growth.",
@@ -77,28 +77,28 @@ const education = {
   items: [
     {
       college: "MEDICAL",
-      courses: "MBBS, BUMS, BAMS, BHMS, BDS, BSc Nursing, BSC, MSC etc.", 
-      duration: "4.5+1-Years, 5-Years, 4-Year, 3-Years, 2-Years",
+      courses: "MBBS, BUMS, BAMS, BHMS, BDS, BSc Nursing, etc.", 
+      duration: "",
     },
     {
       college: "ENGINEERING",
       courses: "B-Tech All Branches, M-tech All Branches, BCA, MCA etc ",
-      duration: "4-Years, 2-Years, 3-Years, 2-Years", 
+      duration: "", 
     },
     {
       college: "MANAGEMENT",
       courses: "BBA, MBA, BHM, BBM, BMS, etc",
-      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years", 
+      duration: "", 
     },
     {
       college: "ARTS & DESIGNING",
       courses: "BA, MA, B-Des, BFA, including other diploma courses.",
-      duration: "3-Years, 2-Years, 3-Years, 3-Years", 
+      duration: "", 
     },
     {
       college: "COMMERCE & FINANCE",
       courses: "B.Com, M.Com, BE, B.Econ, BFIA etc",
-      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years", 
+      duration: "", 
     },
     {
       college: "100+ more courses of your desired requirement and choices which will lead towards your best future growth.",
@@ -158,7 +158,7 @@ const Brochure = () => {
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                   {experience.items.map((item, index)=> {
                     return(
-                      <li key={index} className="bg-[#232329] h-[250px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                      <li key={index} className="bg-[#232329] h-[220px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                         <h3>{item.colleges}</h3>
                         <span className="text-accent">{item.programmes}</span>
                         <div className="flex items-center gap-3">
@@ -183,7 +183,7 @@ const Brochure = () => {
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                   {education.items.map((item, index)=> {
                     return(
-                      <li key={index} className="bg-[#232329] h-[250px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                      <li key={index} className="bg-[#232329] h-[220px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                         <h3>{item.college}</h3>
                         <span className="text-accent">{item.courses}</span>
                         <div className="flex items-center gap-3">

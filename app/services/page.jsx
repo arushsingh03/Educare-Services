@@ -7,7 +7,7 @@ const services = [
   {
     num: "01",
     title: "Medical",
-    description: "We provide consultancy in all the branches of medical like: MBBS, BAMS, BUMS, BHMS, BSC, BSC Nursing, B-Pharma, D-Pharma and many others.",
+    description: "We provide consultancy in all the branches of medical like: MBBS, BAMS, BUMS, BHMS, BSC Nursing, B-Pharma, D-Pharma and many others.",
     href: "" 
   },
   {
@@ -25,7 +25,7 @@ const services = [
   {
     num: "04",
     title: "Arts Designing Management & Others",
-    description: "We provide consultancy in all the branches of medical like: BA, MA, BHM, BJMC, B-Ed, B-Des, B-Lib, LLB, BSW, BMS and many others.",
+    description: "We provide consultancy in all the branches of medical like: BA, MA, BHM, BJMC, B-Ed, B-Des, B-Lib, LLB, BSW, BMS, BSC, MSC and many others.",
     href: "" 
   },
 ];
