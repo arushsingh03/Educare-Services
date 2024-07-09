@@ -38,32 +38,32 @@ const experience = {
   description: "We have provided 350+ number of students successfully placed in desired educational institutions like HBTU, MMMUT, AKG, LLOYED, NHMC, and so on regarding following UG and PG programs. We are Partner with educational institutions and organizations.",
   items: [
     {
-      colleges: "HBTU, KANPUR",
-      programmes: "B-Tech, MCA",
-      duration: "4-Years, 2-Years", 
+      colleges: "MEDICAL",
+      programmes: "MBBS, BUMS, BAMS, BHMS, BDS, BSc Nursing, BSC, MSC etc.",
+      duration: "4.5+1-Years, 5-Years, 4-Year, 3-Years, 2-Years", 
     },
     {
-      colleges: "GLOCAL UNIVERSITY, SAHARANPUR",
-      programmes: "BAMS",
-      duration: "5-Years", 
+      colleges: "ENGINEERING",
+      programmes: "B-Tech All Branches, M-tech All Branches, BCA, MCA etc",
+      duration: "4-Years, 2-Years, 3-Years, 2-Years", 
     },
     {
-      colleges: "CS AYURVEDA MEDICAL COLLEGE, ETAH",
-      programmes: "BAMS",
-      duration: "5-Years", 
+      colleges: "MANAGEMENT",
+      programmes: "BBA, MBA, BHM, BBM, BMS, etc",
+      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years", 
     },
     {
-      colleges: "Dr. VIJAY AYURVEDA MEDICAL COLLEGE, VARANASHI",
-      programmes: "BAMS",
-      duration: "5-Years", 
+      colleges: "ARTS & DESIGNING",
+      programmes: "BA, MA, B-Des, BFA, including other diploma courses.",
+      duration: "3-Years, 2-Years, 3-Years, 3-Years,", 
     },
     {
-      colleges: "MD AYURVEDA MEDICAL COLLEGE, AGRA",
-      programmes: "BAMS",
-      duration: "5-Years", 
+      colleges: "COMMERCE & FINANCE",
+      programmes: "B.Com, M.Com, BE, B.Econ, BFIA etc",
+      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years, ", 
     },
     {
-      colleges: "450+ more Colleges for your desired programmes and secure future",
+      colleges: "100+ more courses of your desired requirement and choices which will lead towards your best future growth.",
       programmes: "",
       duration: "", 
     },
@@ -73,40 +73,35 @@ const experience = {
 const education = {
   icon: "/",
   title: "Our Courses",
-  description: "We are dedicated to providing personalized guidance and support to under-graduates and post-graduates programs such as medical (MBBS, BDS, BAMS, BHMS, & BUMS) and all other branches of engineering, commerce, banking, management and so on",
+  description: "We are dedicated to providing personalized guidance and support to under-graduates and post-graduates programs such as medical (MBBS, BDS, BAMS, BHMS, & BUMS) and all other branches of engineering, commerce, banking, management and so on.",
   items: [
     {
-      college: "HBTU, KANPUR",
-      courses: "B-Tech, MCA", 
-      duration: "4-Years, 2-Years",
+      college: "MEDICAL",
+      courses: "MBBS, BUMS, BAMS, BHMS, BDS, BSc Nursing, BSC, MSC etc.", 
+      duration: "4.5+1-Years, 5-Years, 4-Year, 3-Years, 2-Years",
     },
     {
-      college: "GLOCAL UNIVERSITY, SAHARANPUR",
-      courses: "BAMS",
-      duration: "5-Years", 
+      college: "ENGINEERING",
+      courses: "B-Tech All Branches, M-tech All Branches, BCA, MCA etc ",
+      duration: "4-Years, 2-Years, 3-Years, 2-Years", 
     },
     {
-      college: "CS AYURVEDA MEDICAL COLLEGE, ETAH",
-      courses: "BAMS",
-      duration: "5-Years", 
+      college: "MANAGEMENT",
+      courses: "BBA, MBA, BHM, BBM, BMS, etc",
+      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years", 
     },
     {
-      college: "Dr. VIJAY AYURVEDA MEDICAL COLLEGE, VARANASHI",
-      courses: "BAMS",
-      duration: "5-Years", 
+      college: "ARTS & DESIGNING",
+      courses: "BA, MA, B-Des, BFA, including other diploma courses.",
+      duration: "3-Years, 2-Years, 3-Years, 3-Years", 
     },
     {
-      college: "MD AYURVEDA MEDICAL COLLEGE, AGRA",
-      courses: "BAMS",
-      duration: "5-Years", 
+      college: "COMMERCE & FINANCE",
+      courses: "B.Com, M.Com, BE, B.Econ, BFIA etc",
+      duration: "3-Years, 2-Years, 3-Years, 3-Years, 3-Years", 
     },
     {
-      college: "VGI, NOIDA",
-      courses: "BBA, MBA, BCA etc",
-      duration: "3-Years, 2-Years, 3-Years,", 
-    },
-    {
-      college: "450+ more Colleges for your desired programmes and secure future",
+      college: "100+ more courses of your desired requirement and choices which will lead towards your best future growth.",
       courses: "",
       duration: "", 
     },
@@ -133,7 +128,7 @@ import
  import { motion } from "framer-motion";
 
  
-const Brouche = () => {
+const Brochure = () => {
   return (
     <motion.div 
     initial={{opacity: 0}} 
@@ -163,7 +158,7 @@ const Brouche = () => {
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                   {experience.items.map((item, index)=> {
                     return(
-                      <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                      <li key={index} className="bg-[#232329] h-[250px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                         <h3>{item.colleges}</h3>
                         <span className="text-accent">{item.programmes}</span>
                         <div className="flex items-center gap-3">
@@ -188,7 +183,7 @@ const Brouche = () => {
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                   {education.items.map((item, index)=> {
                     return(
-                      <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                      <li key={index} className="bg-[#232329] h-[250px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                         <h3>{item.college}</h3>
                         <span className="text-accent">{item.courses}</span>
                         <div className="flex items-center gap-3">
@@ -230,4 +225,4 @@ const Brouche = () => {
   );
 };
 
-export default Brouche;
+export default Brochure;

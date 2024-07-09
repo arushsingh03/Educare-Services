@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Medical",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eum?",
+    description: "We provide consultancy in all the branches of medical like: MBBS, BAMS, BUMS, BHMS, BSC, BSC Nursing, B-Pharma, D-Pharma and many others.",
     href: "" 
   },
   {
     num: "02",
     title: "Engineering",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eum?",
+    description: "We provide consultancy in all the branches of medical like: B-Tech, M-Tech, BCA, MCA, BSC-Engineering, and many others.",
     href: "" 
   },
   {
     num: "03",
-    title: "Finance & Commerence",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eum?",
+    title: "Finance & Commerce",
+    description: "We provide consultancy in all the branches of medical like: BBA, MBA, BCom, MCom, BBM, BFIA and many others.",
     href: "" 
   },
   {
     num: "04",
-    title: "Arts Designing & Others",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eum?",
+    title: "Arts Designing Management & Others",
+    description: "We provide consultancy in all the branches of medical like: BA, MA, BHM, BJMC, B-Ed, B-Des, B-Lib, LLB, BSW, BMS and many others.",
     href: "" 
   },
 ];
