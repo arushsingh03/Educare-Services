@@ -2,14 +2,13 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
-import { FiDownload } from "react-icons/fi" 
+import { FiDownload } from "react-icons/fi"; 
 
 const Home = () => {
   return (
     <section className="h-full">
     <div className="container mx-auto h-full">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-        {/* text */}
         <div className="text-center xl:text-left order-2 xl:order-none">
           <span className="text-xl">Educational Consultants</span>
           <h1 className="h1 mb-6">
@@ -17,14 +16,15 @@ const Home = () => {
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">We are dedicated to provide personalized guidance and support to undergraduates and postgraduates.
           </p>
-          {/* buttons and socials */}
           <div className="flex flex-col xl:flex-row items center gap-8">
             <Button 
             variant ="ouline" 
             size="lg" 
             className="uppercase flex items-center gap-2"
             >
-              <span>Download Brochure</span>
+              <a download href="./Brochure.pdf">
+                Download Brochure
+                </a>
               <FiDownload className="text-xl"/>
             </Button>
             <div className="mb-8 xl:mb-0">
@@ -35,7 +35,6 @@ const Home = () => {
               </div>
           </div>
         </div>
-        {/*photo */}
         <div className="order-1 xl:order-none mb-8 xl:mb-0">
           <Photo />
         </div>

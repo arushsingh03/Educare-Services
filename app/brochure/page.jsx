@@ -73,7 +73,7 @@ const experience = {
 const education = {
   icon: "/",
   title: "Our Courses",
-  description: "We are dedicated to providing personalized guidance and support to under-graduates and post-graduates programs such as medical (MBBS, BDS, BAMS, BHMS, & BUMS) and all other branches of engineering, commerce, banking, management and so on.",
+  description: "Our specility in providing personalized guidance and support to under-graduates and post-graduates programs such as medical (MBBS, BDS, BAMS, BHMS, & BUMS) and all other branches of engineering, commerce, banking, management and so on.",
   items: [
     {
       college: "MEDICAL",

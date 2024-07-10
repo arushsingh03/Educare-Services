@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Medical",
-    description: "We provide consultancy in all the branches of medical like: MBBS, BAMS, BUMS, BHMS, BSC Nursing, B-Pharma, D-Pharma and many others.",
+    description: "Our specilities are in provide consultancy in all the branches of medical like: MBBS, BAMS, BUMS, BHMS, BSC Nursing, B-Pharma, D-Pharma and many others.",
     href: "" 
   },
   {
     num: "02",
     title: "Engineering",
-    description: "We provide consultancy in all the branches of medical like: B-Tech, M-Tech, BCA, MCA, BSC-Engineering, and many others.",
+    description: "But, we also provide consultancy in all the branches of engineering like: B-Tech, M-Tech, BCA, MCA, BSC-Engineering, and many others.",
     href: "" 
   },
   {
     num: "03",
     title: "Finance & Commerce",
-    description: "We provide consultancy in all the branches of medical like: BBA, MBA, BCom, MCom, BBM, BFIA and many others.",
+    description: "And we are also dedicated to provide consultancy in all the branches of finance and commerce like: BBA, MBA, BCom, MCom, BBM, BFIA and many others.",
     href: "" 
   },
   {
     num: "04",
     title: "Arts Designing Management & Others",
-    description: "We provide consultancy in all the branches of medical like: BA, MA, BHM, BJMC, B-Ed, B-Des, B-Lib, LLB, BSW, BMS, BSC, MSC and many others.",
+    description: "As well as we also provide consultancy in other branches of academics which are likely Arts, Designing, Management, including all the other streams like: BA, MA, BHM, BJMC, B-Ed, B-Des, B-Lib, LLB, BSW, BMS, BSC, MSC and many others.",
     href: "" 
   },
 ];
@@ -35,7 +35,7 @@ import { motion } from "framer-motion";
 
 const Services  = () => {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+    <section className="min-h-[120vh] flex flex-col justify-center py-12 xl:py-0">
       <div className="container mx-auto">
         <motion.div 
         initial={{ opacity: 0 }}
@@ -60,11 +60,8 @@ const Services  = () => {
                 <BsArrowDownRight className="text-primary text-3xl"/>
                 </Link>
               </div>
-              {/* title */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
-              {/* description */}
               <p className="text-white/60">{service.description}</p>
-              {/* border */}
               <div className="border-b border-white/20 w-full"></div>
             </div>
             );
