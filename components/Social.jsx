@@ -1,11 +1,13 @@
 import Link from "next/link";
 
-import { FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaYoutube, FaTwitter, FaFacebook, FaInstagram} from "react-icons/fa";
 
 const socials = [
   {icon: <FaLinkedinIn />, path: ""},
   {icon: <FaTwitter />, path: ""},
-  {icon: <FaYoutube />, path: ""},
+  {icon: <FaYoutube />, path: "https://www.youtube.com/@Educareservices"},
+  {icon: <FaFacebook />, path: ""},
+  {icon: <FaInstagram />, path: ""},
 ];
 
 const Social = ({containerStyles, iconStyles}) => {

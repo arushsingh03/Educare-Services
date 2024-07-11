@@ -27,7 +27,7 @@ const about = {
   },
   {
     fieldName: "Youtube",
-    fieldValue: "Educare//"
+    fieldValue: "https://www.youtube.com/@Educareservices"
   },
 ]
 };
@@ -145,9 +145,7 @@ const Brochure = () => {
           <TabsTrigger value="about">About Us</TabsTrigger>
         </TabsList>
 
-        {/* content */}
         <div className="min-h-[70vh] w-full">
-          {/* experience */}
           <TabsContent value="experience" className="w-full">
             <div className="flex flex-col gap-[30px] text-center xl:text-left">
               <h3 className="text-4xl font-bold">{experience.title}</h3>
