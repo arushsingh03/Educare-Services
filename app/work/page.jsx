@@ -81,7 +81,7 @@ const Work = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4 p-4">
                 <p>{student.name}</p>
-                <p>{student.course}</p>
+                <p className="text-accent">{student.course}</p>
                 <p className="text-center">{student.college}</p>
                 </div>
               </div>
