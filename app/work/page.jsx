@@ -74,8 +74,8 @@ const Work = () => {
         <div className="w-3/4 m-auto">
           <div>
           <Slider {...settings}>
-            {students.map((student) =>(
-              <div className="h-[450px] text-white/60 rounded-xl">
+            {students.map((student, index) =>(
+              <div className="h-[450px] text-white/60 rounded-xl" key={index}>
                 <div className="h-70 rounded-t-xl flex justify-center items-center">
                   <img src={student.img} alt="" className="h-60 w-60 rounded-full" />
                 </div>
