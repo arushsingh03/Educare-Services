@@ -7,7 +7,7 @@ const socials = [
   {icon: <FaTwitter />, path: ""},
   {icon: <FaYoutube />, path: "https://www.youtube.com/@Educareservices"},
   {icon: <FaFacebook />, path: ""},
-  {icon: <FaInstagram />, path: ""},
+  {icon: <FaInstagram />, path: "https://www.instagram.com/educare_services_?igsh=ZmFnMjRmdHhpNGxl"},
 ];
 
 const Social = ({containerStyles, iconStyles}) => {

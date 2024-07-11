@@ -3,6 +3,8 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import { 
   Select, 
@@ -37,6 +39,24 @@ import {
   import { motion } from "framer-motion";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_ohszx6s', 'template_u0x6w5e', form.current, {
+        publicKey: 'wyljFCIndHb0_bwOm',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <motion.section 
     initial={{ opacity: 0 }} 
@@ -48,14 +68,14 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
-            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" ref={form} onSubmit={sendEmail}>
               <h3 className="text-4xl text-accent">Let's find your desired academic course</h3>
               <p className="text-white/60">We are here to provide tailored educational guidance and support to students, helping them navigate academic challenges, set and achieve goals, and unlock their full potential. We aim to empower students with the necessary tools and resources to succeed academically, enhance their learning experience, and build a strong foundation for their future endeavors. Through personalized consultations, mentorship, and strategic planning, we strive to inspire and guide students towards academic excellence and personal growth.</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
-                <Input type="phone" placeholder="Phone number" />
+                <Input type="firstname" name="Firstname" placeholder="Firstname" />
+                <Input type="lastname" name="Lastname" placeholder="Lastname" />
+                <Input type="email"  name="Email address" placeholder="Email address" />
+                <Input type="phone" name="Phone number" placeholder="Phone number" />
               </div>
               <Select>
                 <SelectTrigger className="w-full">
@@ -71,7 +91,7 @@ const Contact = () => {
                   </SelectGroup>
                 </SelectContent>
               </Select>
-              <Textarea className="h-[200px]" placeholder="Type your query here."/>
+              <Textarea name="Type your query here" className="h-[200px]" placeholder="Type your query here."/>
               <Button size="md" className="max-w-40">Send Query</Button>
             </form>
           </div>
