@@ -4,9 +4,9 @@ import { FaLinkedinIn, FaYoutube, FaTwitter, FaFacebook, FaInstagram} from "reac
 
 const socials = [
   {icon: <FaLinkedinIn />, path: ""},
-  {icon: <FaTwitter />, path: ""},
+  {icon: <FaTwitter />, path: "https://x.com/EducareL23579"},
   {icon: <FaYoutube />, path: "https://www.youtube.com/@Educareservices"},
-  {icon: <FaFacebook />, path: ""},
+  {icon: <FaFacebook />, path: "https://www.facebook.com/share/sGKAmLJjvt1EpooV/?mibextid=qi2Omg"},
   {icon: <FaInstagram />, path: "https://www.instagram.com/educare_services_?igsh=ZmFnMjRmdHhpNGxl"},
 ];
 
