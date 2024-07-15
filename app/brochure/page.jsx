@@ -19,15 +19,15 @@ const about = {
   },
   {
     fieldName: "Facebook",
-    fieldValue: "Educare//"
+    fieldValue: "Educare Services"
   },
   {
     fieldName: "LinkdIn",
-    fieldValue: "Educare//"
+    fieldValue: "Educare Services"
   },
   {
     fieldName: "Youtube",
-    fieldValue: "https://www.youtube.com/@Educareservices"
+    fieldValue: "Educareservices"
   },
 ]
 };
@@ -115,15 +115,6 @@ import
   TabsList, 
   TabsTrigger 
 } from "@/components/ui/tabs";
-
-import 
-{ 
-  Tooltip, 
-  TooltipContent, 
-  TooltipProvider, 
-  TooltipTrigger,
- } from "@/components/ui/tooltip";
-
  import { ScrollArea } from "@/components/ui/scroll-area";
  import { motion } from "framer-motion";
 
