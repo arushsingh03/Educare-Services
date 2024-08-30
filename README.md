@@ -7,11 +7,10 @@
 Educare is a next and react-based web app that is used as a Companies Profile for their consumer and partners. It uses modern UI based on ShadCN components and tailwind CSS. It uses Visme Form, and PostgreSQL as a database. 
 
 # Features
-To improve user experience Educare has several thoughtful features that make the UI user-friendly and intuitive. Some of these features are --
-
-Minimal UI.
-Animated-Conatct Form.
-PostgreSQL database for reliable and safe storage.
+- To improve user experience Educare has several thoughtful features that make the UI user-friendly and intuitive.<br/> Some of these features are --<br/>
+- Minimal UI.<br/>
+- Animated-Conatct Form.<br/>
+- PostgreSQL database for reliable and safe storage.<br/>
 # Screenshots
 # Lading Page
  <img src="https://github.com/arushsingh03/Educare-Services/blob/main/public/screenshots/Landing%20Page.png"> <br/>
